@@ -116,8 +116,19 @@ input{
         flex-direction: row;
         justify-content: space-between;
         padding: 20px;
+        .movie{
+
+            position:relative;
+        }
         img{
             border-radius: 10px;
+        }
+        span{
+            font-size: 100px;
+            color: white;
+            position: absolute;
+            bottom: 8px;
+            right: 180px;
         }
 
     }
@@ -177,4 +188,27 @@ input{
     display: flex;
     flex-direction: column;
     align-items: center;
+    p{
+        color:white
+    }
+}
+footer{
+    padding: 10px 150px;
+    p{
+        color: white;
+    }
+    a{
+        color: #b3b3b3;
+    }
+    .btm{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between ;
+        align-items: center;
+        li{
+            list-style: none;
+            line-height: 50px;
+        }
+    }
+    
 }
